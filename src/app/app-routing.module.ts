@@ -10,7 +10,11 @@ const routes: Routes = [
     path: '',
     redirectTo: 'home',
     pathMatch: 'full'
+  },  {
+    path: 'uso',
+    loadChildren: () => import('./uso/uso.module').then( m => m.UsoPageModule)
   },
+
 ];
 
 @NgModule({
