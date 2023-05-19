@@ -14,7 +14,11 @@ const routes: Routes = [
   {
     path: 'uso',
     loadChildren: () => import('./uso/uso.module').then( m => m.UsoPageModule)
+  },  {
+    path: 'unab',
+    loadChildren: () => import('./unab/unab.module').then( m => m.UNABPageModule)
   },
+
 
 ];
 
