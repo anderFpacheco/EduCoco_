@@ -18,6 +18,18 @@ const routes: Routes = [
     path: 'unab',
     loadChildren: () => import('./unab/unab.module').then( m => m.UNABPageModule)
   },
+  {
+    path: 'registro',
+    loadChildren: () => import('./registro/registro.module').then( m => m.RegistroPageModule)
+  },
+  {
+    path: 'inicio',
+    loadChildren: () => import('./inicio/inicio.module').then( m => m.InicioPageModule)
+  },
+  {
+    path: 'esfe',
+    loadChildren: () => import('./esfe/esfe.module').then( m => m.EsfePageModule)
+  },
 
 
 ];
