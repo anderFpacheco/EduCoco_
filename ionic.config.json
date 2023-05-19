@@ -1,0 +1,7 @@
+{
+  "name": "EduCoco",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
