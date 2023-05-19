@@ -10,7 +10,11 @@ const routes: Routes = [
     path: '',
     redirectTo: 'home',
     pathMatch: 'full'
+  },  {
+    path: 'uma',
+    loadChildren: () => import('./uma/uma.module').then( m => m.UmaPageModule)
   },
+
 ];
 
 @NgModule({
