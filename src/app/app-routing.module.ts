@@ -34,7 +34,11 @@ const routes: Routes = [
   {
     path: 'uma',
     loadChildren: () => import('./uma/uma.module').then( m => m.UmaPageModule)
+  },  {
+    path: 'ciencias-economicas-uma',
+    loadChildren: () => import('./ciencias-economicas-uma/ciencias-economicas-uma.module').then( m => m.CienciasEconomicasUmaPageModule)
   },
+
 
 
 
