@@ -34,11 +34,24 @@ const routes: Routes = [
   {
     path: 'uma',
     loadChildren: () => import('./uma/uma.module').then( m => m.UmaPageModule)
+  },  {
+    path: 'ciencias-economicas-uma',
+    loadChildren: () => import('./ciencias-economicas-uma/ciencias-economicas-uma.module').then( m => m.CienciasEconomicasUMAPageModule)
   },
   {
-    path: 'ciencias-economicas-uma',
-    loadChildren: () => import('./ciencias-economicas-uma/ciencias-economicas-uma.module').then( m => m.CienciasEconomicasUmaPageModule)
+    path: 'ciencias-y-humanidades-uma',
+    loadChildren: () => import('./ciencias-y-humanidades-uma/ciencias-y-humanidades-uma.module').then( m => m.CienciasYHumanidadesUMAPageModule)
   },
+  {
+    path: 'ciencias-juridicas-uma',
+    loadChildren: () => import('./ciencias-juridicas-uma/ciencias-juridicas-uma.module').then( m => m.CienciasJuridicasUMAPageModule)
+  },
+  {
+    path: 'pos-grado-uma',
+    loadChildren: () => import('./pos-grado-uma/pos-grado-uma.module').then( m => m.PosGradoUMAPageModule)
+  },
+
+  
 
 
 

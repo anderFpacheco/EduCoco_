@@ -5,7 +5,7 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './ciencias-economicas-uma.page.html',
   styleUrls: ['./ciencias-economicas-uma.page.scss'],
 })
-export class CienciasEconomicasUmaPage implements OnInit {
+export class CienciasEconomicasUMAPage implements OnInit {
 
   constructor() { }
 
