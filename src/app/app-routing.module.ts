@@ -62,6 +62,22 @@ const routes: Routes = [
     path: 'unab-ciencias-economicas',
     loadChildren: () => import('./unab-ciencias-economicas/unab-ciencias-economicas.module').then( m => m.UnabCienciasEconomicasPageModule)
   },
+  {
+    path: 'tecnico-software-esfe',
+    loadChildren: () => import('./tecnico-software-esfe/tecnico-software-esfe.module').then( m => m.TecnicoSoftwareESFEPageModule)
+  },
+  {
+    path: 'tecnico-electrico-esfe',
+    loadChildren: () => import('./tecnico-electrico-esfe/tecnico-electrico-esfe.module').then( m => m.TecnicoElectricoESFEPageModule)
+  },
+  {
+    path: 'tecnico-turismo-esfe',
+    loadChildren: () => import('./tecnico-turismo-esfe/tecnico-turismo-esfe.module').then( m => m.TecnicoTurismoESFEPageModule)
+  },
+  {
+    path: 'tecnico-mercadeo-esfe',
+    loadChildren: () => import('./tecnico-mercadeo-esfe/tecnico-mercadeo-esfe.module').then( m => m.TecnicoMercadeoESFEPageModule)
+  },
 
   
 
