@@ -50,6 +50,18 @@ const routes: Routes = [
     path: 'pos-grado-uma',
     loadChildren: () => import('./pos-grado-uma/pos-grado-uma.module').then( m => m.PosGradoUMAPageModule)
   },
+  {
+    path: 'unab-ciencias-humanisticas',
+    loadChildren: () => import('./unab-ciencias-humanisticas/unab-ciencias-humanisticas.module').then( m => m.UnabCienciasHumanisticasPageModule)
+  },
+  {
+    path: 'unab-ciencias-salud',
+    loadChildren: () => import('./unab-ciencias-salud/unab-ciencias-salud.module').then( m => m.UnabCienciasSaludPageModule)
+  },
+  {
+    path: 'unab-ciencias-economicas',
+    loadChildren: () => import('./unab-ciencias-economicas/unab-ciencias-economicas.module').then( m => m.UnabCienciasEconomicasPageModule)
+  },
 
   
 
