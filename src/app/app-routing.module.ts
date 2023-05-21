@@ -78,6 +78,10 @@ const routes: Routes = [
     path: 'tecnico-mercadeo-esfe',
     loadChildren: () => import('./tecnico-mercadeo-esfe/tecnico-mercadeo-esfe.module').then( m => m.TecnicoMercadeoESFEPageModule)
   },
+  {
+    path: 'uso-ciencias-ecomicas',
+    loadChildren: () => import('./uso-ciencias-ecomicas/uso-ciencias-ecomicas.module').then( m => m.UsoCienciasEcomicasPageModule)
+  },
 
   
 
