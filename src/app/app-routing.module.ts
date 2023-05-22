@@ -11,10 +11,7 @@ const routes: Routes = [
     redirectTo: 'home',
     pathMatch: 'full'
   },
-  {
-    path: 'uso',
-    loadChildren: () => import('./uso/uso.module').then( m => m.UsoPageModule)
-  },
+ 
   {
     path: 'unab',
     loadChildren: () => import('./unab/unab.module').then( m => m.UNABPageModule)
@@ -34,7 +31,8 @@ const routes: Routes = [
   {
     path: 'uma',
     loadChildren: () => import('./uma/uma.module').then( m => m.UmaPageModule)
-  },  {
+  },
+  {
     path: 'ciencias-economicas-uma',
     loadChildren: () => import('./ciencias-economicas-uma/ciencias-economicas-uma.module').then( m => m.CienciasEconomicasUMAPageModule)
   },
@@ -79,15 +77,22 @@ const routes: Routes = [
     loadChildren: () => import('./tecnico-mercadeo-esfe/tecnico-mercadeo-esfe.module').then( m => m.TecnicoMercadeoESFEPageModule)
   },
   {
-    path: 'uso-ciencias-ecomicas',
-    loadChildren: () => import('./uso-ciencias-ecomicas/uso-ciencias-ecomicas.module').then( m => m.UsoCienciasEcomicasPageModule)
+    path: 'uso',
+    loadChildren: () => import('./uso/uso.module').then( m => m.UsoPageModule)
   },
-
+  {
+    path: 'uso-ing-ycn',
+    loadChildren: () => import('./uso-ing-ycn/uso-ing-ycn.module').then( m => m.UsoIngYcnPageModule)
+  },
+  {
+    path: 'uso-eco-y-cs',
+    loadChildren: () => import('./uso-eco-y-cs/uso-eco-y-cs.module').then( m => m.UsoEcoYCsPageModule)
+  },
+  {
+    path: 'uso-cien-juridicas',
+    loadChildren: () => import('./uso-cien-juridicas/uso-cien-juridicas.module').then( m => m.UsoCienJuridicasPageModule)
+  },
   
-
-
-
-
 ];
 
 @NgModule({
