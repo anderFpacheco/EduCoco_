@@ -92,10 +92,6 @@ const routes: Routes = [
     path: 'uso-cien-juridicas',
     loadChildren: () => import('./uso-cien-juridicas/uso-cien-juridicas.module').then( m => m.UsoCienJuridicasPageModule)
   },
-  {
-    path: 'lic-adm-empresas',
-    loadChildren: () => import('./lic-adm-empresas/lic-adm-empresas.module').then( m => m.LicAdmEmpresasPageModule)
-  },
 
   
 ];
