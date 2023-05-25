@@ -74,6 +74,16 @@
   --ion-color-light-contrast-rgb: 0, 0, 0;
   --ion-color-light-shade: #d7d8da;
   --ion-color-light-tint: #f5f6f9;
+
+  /** unab **/
+    --ion-color-unab: #1a7f30;
+    --ion-color-unab-rgb: 26,127,48;
+    --ion-color-unab-contrast: #ffffff;
+    --ion-color-unab-contrast-rgb: 255,255,255;
+    --ion-color-unab-shade: #17702a;
+    --ion-color-unab-tint: #318c45;
+
+
 }
 
 @media (prefers-color-scheme: dark) {
