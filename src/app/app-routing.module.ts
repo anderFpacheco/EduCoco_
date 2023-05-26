@@ -91,7 +91,59 @@ const routes: Routes = [
   {
     path: 'uso-cien-juridicas',
     loadChildren: () => import('./uso-cien-juridicas/uso-cien-juridicas.module').then( m => m.UsoCienJuridicasPageModule)
+  },  {
+    path: 'lic-adm-empresa-uma',
+    loadChildren: () => import('./lic-adm-empresa-uma/lic-adm-empresa-uma.module').then( m => m.LicAdmEmpresaUmaPageModule)
   },
+  {
+    path: 'lic-conta-uma',
+    loadChildren: () => import('./lic-conta-uma/lic-conta-uma.module').then( m => m.LicContaUmaPageModule)
+  },
+  {
+    path: 'lic-merca-uma',
+    loadChildren: () => import('./lic-merca-uma/lic-merca-uma.module').then( m => m.LicMercaUmaPageModule)
+  },
+  {
+    path: 'lic-info-uma',
+    loadChildren: () => import('./lic-info-uma/lic-info-uma.module').then( m => m.LicInfoUmaPageModule)
+  },
+  {
+    path: 'tec-conta-uma',
+    loadChildren: () => import('./tec-conta-uma/tec-conta-uma.module').then( m => m.TecContaUmaPageModule)
+  },
+  {
+    path: 'tec-soft-uma',
+    loadChildren: () => import('./tec-soft-uma/tec-soft-uma.module').then( m => m.TecSoftUmaPageModule)
+  },
+  {
+    path: 'lic-juridi-uma',
+    loadChildren: () => import('./lic-juridi-uma/lic-juridi-uma.module').then( m => m.LicJuridiUmaPageModule)
+  },
+  {
+    path: 'maestria-uma',
+    loadChildren: () => import('./maestria-uma/maestria-uma.module').then( m => m.MaestriaUmaPageModule)
+  },
+  {
+    path: 'lic-ingles-uma',
+    loadChildren: () => import('./lic-ingles-uma/lic-ingles-uma.module').then( m => m.LicInglesUmaPageModule)
+  },
+  {
+    path: 'lic-lenguaje-uma',
+    loadChildren: () => import('./lic-lenguaje-uma/lic-lenguaje-uma.module').then( m => m.LicLenguajeUmaPageModule)
+  },
+  {
+    path: 'lic-psico-uma',
+    loadChildren: () => import('./lic-psico-uma/lic-psico-uma.module').then( m => m.LicPsicoUmaPageModule)
+  },
+  {
+    path: 'prof-parvula-uma',
+    loadChildren: () => import('./prof-parvula-uma/prof-parvula-uma.module').then( m => m.ProfParvulaUmaPageModule)
+  },
+  {
+    path: 'prof-sociales-uma',
+    loadChildren: () => import('./prof-sociales-uma/prof-sociales-uma.module').then( m => m.ProfSocialesUmaPageModule)
+  },
+
 
   
 ];
