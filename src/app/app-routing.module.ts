@@ -91,61 +91,53 @@ const routes: Routes = [
   {
     path: 'uso-cien-juridicas',
     loadChildren: () => import('./uso-cien-juridicas/uso-cien-juridicas.module').then( m => m.UsoCienJuridicasPageModule)
-  },  {
-    path: 'lic-adm-empresa-uma',
-    loadChildren: () => import('./lic-adm-empresa-uma/lic-adm-empresa-uma.module').then( m => m.LicAdmEmpresaUmaPageModule)
   },
   {
-    path: 'lic-conta-uma',
-    loadChildren: () => import('./lic-conta-uma/lic-conta-uma.module').then( m => m.LicContaUmaPageModule)
+    path: 'unab-lic-administracion',
+    loadChildren: () => import('./unab-lic-administracion/unab-lic-administracion.module').then( m => m.UnabLicAdministracionPageModule)
   },
   {
-    path: 'lic-merca-uma',
-    loadChildren: () => import('./lic-merca-uma/lic-merca-uma.module').then( m => m.LicMercaUmaPageModule)
+    path: 'unab-contaduria',
+    loadChildren: () => import('./unab-contaduria/unab-contaduria.module').then( m => m.UnabContaduriaPageModule)
   },
   {
-    path: 'lic-info-uma',
-    loadChildren: () => import('./lic-info-uma/lic-info-uma.module').then( m => m.LicInfoUmaPageModule)
+    path: 'unab-lic-computacion',
+    loadChildren: () => import('./unab-lic-computacion/unab-lic-computacion.module').then( m => m.UnabLicComputacionPageModule)
   },
   {
-    path: 'tec-conta-uma',
-    loadChildren: () => import('./tec-conta-uma/tec-conta-uma.module').then( m => m.TecContaUmaPageModule)
+    path: 'unab-lic-mercadeo',
+    loadChildren: () => import('./unab-lic-mercadeo/unab-lic-mercadeo.module').then( m => m.UnabLicMercadeoPageModule)
   },
   {
-    path: 'tec-soft-uma',
-    loadChildren: () => import('./tec-soft-uma/tec-soft-uma.module').then( m => m.TecSoftUmaPageModule)
+    path: 'unab-lic-turismo',
+    loadChildren: () => import('./unab-lic-turismo/unab-lic-turismo.module').then( m => m.UnabLicTurismoPageModule)
   },
   {
-    path: 'lic-juridi-uma',
-    loadChildren: () => import('./lic-juridi-uma/lic-juridi-uma.module').then( m => m.LicJuridiUmaPageModule)
+    path: 'unab-tec-computacion',
+    loadChildren: () => import('./unab-tec-computacion/unab-tec-computacion.module').then( m => m.UnabTecComputacionPageModule)
   },
   {
-    path: 'maestria-uma',
-    loadChildren: () => import('./maestria-uma/maestria-uma.module').then( m => m.MaestriaUmaPageModule)
+    path: 'unab-tec-mercadeo',
+    loadChildren: () => import('./unab-tec-mercadeo/unab-tec-mercadeo.module').then( m => m.UnabTecMercadeoPageModule)
   },
   {
-    path: 'lic-ingles-uma',
-    loadChildren: () => import('./lic-ingles-uma/lic-ingles-uma.module').then( m => m.LicInglesUmaPageModule)
+    path: 'unab-tec-turismo',
+    loadChildren: () => import('./unab-tec-turismo/unab-tec-turismo.module').then( m => m.UnabTecTurismoPageModule)
   },
   {
-    path: 'lic-lenguaje-uma',
-    loadChildren: () => import('./lic-lenguaje-uma/lic-lenguaje-uma.module').then( m => m.LicLenguajeUmaPageModule)
+    path: 'unab-lic-salud',
+    loadChildren: () => import('./unab-lic-salud/unab-lic-salud.module').then( m => m.UnabLicSaludPageModule)
   },
   {
-    path: 'lic-psico-uma',
-    loadChildren: () => import('./lic-psico-uma/lic-psico-uma.module').then( m => m.LicPsicoUmaPageModule)
+    path: 'unab-tec-salud',
+    loadChildren: () => import('./unab-tec-salud/unab-tec-salud.module').then( m => m.UnabTecSaludPageModule)
   },
   {
-    path: 'prof-parvula-uma',
-    loadChildren: () => import('./prof-parvula-uma/prof-parvula-uma.module').then( m => m.ProfParvulaUmaPageModule)
-  },
-  {
-    path: 'prof-sociales-uma',
-    loadChildren: () => import('./prof-sociales-uma/prof-sociales-uma.module').then( m => m.ProfSocialesUmaPageModule)
+    path: 'unab-lic-comunicacion',
+    loadChildren: () => import('./unab-lic-comunicacion/unab-lic-comunicacion.module').then( m => m.UnabLicComunicacionPageModule)
   },
 
 
-  
 ];
 
 @NgModule({
