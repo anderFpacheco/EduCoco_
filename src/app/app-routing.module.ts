@@ -91,9 +91,52 @@ const routes: Routes = [
   {
     path: 'uso-cien-juridicas',
     loadChildren: () => import('./uso-cien-juridicas/uso-cien-juridicas.module').then( m => m.UsoCienJuridicasPageModule)
+  },  {
+    path: 'unab-lic-administracion',
+    loadChildren: () => import('./unab-lic-administracion/unab-lic-administracion.module').then( m => m.UnabLicAdministracionPageModule)
+  },
+  {
+    path: 'unab-contaduria',
+    loadChildren: () => import('./unab-contaduria/unab-contaduria.module').then( m => m.UnabContaduriaPageModule)
+  },
+  {
+    path: 'unab-lic-computacion',
+    loadChildren: () => import('./unab-lic-computacion/unab-lic-computacion.module').then( m => m.UnabLicComputacionPageModule)
+  },
+  {
+    path: 'unab-lic-mercadeo',
+    loadChildren: () => import('./unab-lic-mercadeo/unab-lic-mercadeo.module').then( m => m.UnabLicMercadeoPageModule)
+  },
+  {
+    path: 'unab-lic-turismo',
+    loadChildren: () => import('./unab-lic-turismo/unab-lic-turismo.module').then( m => m.UnabLicTurismoPageModule)
+  },
+  {
+    path: 'unab-tec-computacion',
+    loadChildren: () => import('./unab-tec-computacion/unab-tec-computacion.module').then( m => m.UnabTecComputacionPageModule)
+  },
+  {
+    path: 'unab-tec-mercadeo',
+    loadChildren: () => import('./unab-tec-mercadeo/unab-tec-mercadeo.module').then( m => m.UnabTecMercadeoPageModule)
+  },
+  {
+    path: 'unab-tec-turismo',
+    loadChildren: () => import('./unab-tec-turismo/unab-tec-turismo.module').then( m => m.UnabTecTurismoPageModule)
+  },
+  {
+    path: 'unab-lic-salud',
+    loadChildren: () => import('./unab-lic-salud/unab-lic-salud.module').then( m => m.UnabLicSaludPageModule)
+  },
+  {
+    path: 'unab-tec-salud',
+    loadChildren: () => import('./unab-tec-salud/unab-tec-salud.module').then( m => m.UnabTecSaludPageModule)
+  },
+  {
+    path: 'unab-lic-comunicacion',
+    loadChildren: () => import('./unab-lic-comunicacion/unab-lic-comunicacion.module').then( m => m.UnabLicComunicacionPageModule)
   },
 
-  
+
 ];
 
 @NgModule({
