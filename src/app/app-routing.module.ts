@@ -191,7 +191,47 @@ const routes: Routes = [
   {
     path: 'maestria-uma',
     loadChildren: () => import('./maestria-uma/maestria-uma.module').then( m => m.MaestriaUmaPageModule)
+  },  {
+    path: 'uso-ing-agro',
+    loadChildren: () => import('./uso-ing-agro/uso-ing-agro.module').then( m => m.UsoIngAgroPageModule)
   },
+  {
+    path: 'uso-ing-electrica',
+    loadChildren: () => import('./uso-ing-electrica/uso-ing-electrica.module').then( m => m.UsoIngElectricaPageModule)
+  },
+  {
+    path: 'uso-ing-industrial',
+    loadChildren: () => import('./uso-ing-industrial/uso-ing-industrial.module').then( m => m.UsoIngIndustrialPageModule)
+  },
+  {
+    path: 'uso-ing-sistemas',
+    loadChildren: () => import('./uso-ing-sistemas/uso-ing-sistemas.module').then( m => m.UsoIngSistemasPageModule)
+  },
+  {
+    path: 'uso-licconta',
+    loadChildren: () => import('./uso-licconta/uso-licconta.module').then( m => m.UsoLiccontaPageModule)
+  },
+  {
+    path: 'uso-licedu-b',
+    loadChildren: () => import('./uso-licedu-b/uso-licedu-b.module').then( m => m.UsoLiceduBPageModule)
+  },
+  {
+    path: 'uso-licempresa',
+    loadChildren: () => import('./uso-licempresa/uso-licempresa.module').then( m => m.UsoLicempresaPageModule)
+  },
+  {
+    path: 'uso-liclenguaje',
+    loadChildren: () => import('./uso-liclenguaje/uso-liclenguaje.module').then( m => m.UsoLiclenguajePageModule)
+  },
+  {
+    path: 'uso-licmate',
+    loadChildren: () => import('./uso-licmate/uso-licmate.module').then( m => m.UsoLicmatePageModule)
+  },
+  {
+    path: 'uso-licsociales',
+    loadChildren: () => import('./uso-licsociales/uso-licsociales.module').then( m => m.UsoLicsocialesPageModule)
+  },
+
 
 
 ];
