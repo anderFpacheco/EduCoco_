@@ -231,6 +231,22 @@ const routes: Routes = [
     path: 'uso-licsociales',
     loadChildren: () => import('./uso-licsociales/uso-licsociales.module').then( m => m.UsoLicsocialesPageModule)
   },
+  {
+    path: 'uso-prof-edu-b',
+    loadChildren: () => import('./uso-prof-edu-b/uso-prof-edu-b.module').then( m => m.UsoProfEduBPageModule)
+  },
+  {
+    path: 'uso-lic-psicologia',
+    loadChildren: () => import('./uso-lic-psicologia/uso-lic-psicologia.module').then( m => m.UsoLicPsicologiaPageModule)
+  },
+  {
+    path: 'uso-maestria-neuro',
+    loadChildren: () => import('./uso-maestria-neuro/uso-maestria-neuro.module').then( m => m.UsoMaestriaNeuroPageModule)
+  },
+  {
+    path: 'uso-lic-juridicas',
+    loadChildren: () => import('./uso-lic-juridicas/uso-lic-juridicas.module').then( m => m.UsoLicJuridicasPageModule)
+  },
 
 
 
